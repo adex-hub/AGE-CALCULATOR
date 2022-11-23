@@ -1,0 +1,45 @@
+This was within the superUpdate() FUNCTION in the JS folder...
+  // yobField.value?console.log(yobField.value):console.log('nope');
+  // console.log(regex.test(yobField.value));
+
+...while I was testing it.
+  
+
+This was in the main JS file and I made this code a while ago for a reset feature which later seemed useless.
+
+/*INITIALIZATION FUNCTION*/
+// document.querySelector(".reset").addEventListener("click", init());
+// function init() {
+//   document.querySelector("#dob").value = "";
+//   document.querySelector(".yob").value = "";
+//   document.querySelector(".selected").id = 13;
+//   document.querySelector(".info-tab").style.display = "none";
+// }
+//dayOfBirth > currDay ? dayOfBirth - currDay : currDay - dayOfBirth;
+//const birthMonth = Math.abs(theMonth - mainMonth);
+//else if (dayOfBirth === currDay) {
+//dob = 0;
+
+My joys and Failures 😆😂 (How I felt towards the end of coding this project)
+    This is stressing me out for real.
+        -Me, 14/11/22
+
+     Yay! it finally worked 😁🎉😊
+        -Me, 21/11/22 - When I finally completed this project.
+
+A Few console.logs that I used during its development that I couldn't let go 😂😂.
+
+  console.log(lastday(currYear, mainMonth));
+  console.log(birthMonth);
+  console.log(document.querySelector(".selected"));
+
+STORY BEHIND THIS PROJECT!
+    I started this project last year [2021] while I was learning JavaScript and I stumbled on JavaScript's getDate feature. I was so fascinated by it,
+    that I was moved to build this age calculator. I completed it June 2021. Then this year, I revisited this project to give it some added features and
+    fix some bugs that I couldn't fix at the time. And now I am glad about where this project is at, at the moment because I was able to do everything
+    I set out to accomplish on this project.
+
+    To eveyone who needs to build something, get started and build that thing, do what you need to do. When you fix a bug 
+    you considered difficult or you successfully complete the project you started off building, you become more confident in your
+    abilities as a developer and you also learn along the way too. You also get the confidence to try building more cool projects 😎.
+    And it would ensure you have enough projects to show off in the long run. So get to work and explore possibilities.

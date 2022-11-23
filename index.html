@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><span class="trans">What's</span> YourAge?</h1>
+    </header>
+    <div class="main">
+      <div class="container">
+        <h3>Month (of birth)</h3>
+
+        <div class="select-box">
+          <div class="options-container">
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                value="January"
+                name="category"
+              />
+              <label for="january" id="1" class="mth">January</label>
+            </div>
+
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                value="February"
+                name="category"
+              />
+              <label for="february" id="2" class="mth">February</label>
+            </div>
+
+            <div class="option">
+              <input type="radio" class="radio" name="category" />
+              <label for="march" id="3" class="mth">March</label>
+            </div>
+
+            <div class="option">
+              <input type="radio" class="radio" value="April" name="category" />
+              <label for="april" id="4" class="mth">April</label>
+            </div>
+
+            <div class="option">
+              <input type="radio" class="radio" value="Music" name="category" />
+              <label for="may" id="5" class="mth">May</label>
+            </div>
+
+            <div class="option">
+              <input type="radio" class="radio" value="June" name="category" />
+              <label for="june" id="6" class="mth">June</label>
+            </div>
+
+            <div class="option">
+              <input type="radio" class="radio" value="July" name="category" />
+              <label for="july" id="7" class="mth">July</label>
+            </div>
+
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                value="August"
+                name="category"
+              />
+              <label for="august" id="8" class="mth">August</label>
+            </div>
+
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                value="September"
+                name="category"
+              />
+              <label for="september" class="mth" id="9">September</label>
+            </div>
+
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                value="October"
+                name="category"
+              />
+              <label for="october" id="10" class="mth">October</label>
+            </div>
+
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                value="November"
+                name="category"
+              />
+              <label for="november" id="11" class="mth">November</label>
+            </div>
+
+            <div class="option">
+              <input
+                type="radio"
+                class="radio"
+                value="December"
+                name="category"
+              />
+              <label for="december" id="12" class="mth">December</label>
+            </div>
+          </div>
+
+          <div class="selected" id="13">Select Birth Month</div>
+        </div>
+      </div>
+
+      <!-- DAY -->
+      <div class="day-input">
+        <label for="dob"><h3>Day Of Birth</h3></label>
+        <input
+          placeholder="Day"
+          type="number"
+          name=""
+          id="dob"
+          min="1"
+          max="31"
+        />
+      </div>
+
+      <div class="year-input">
+        <label for="dob"><h3>Year Of Birth</h3></label>
+        <input type="number" placeholder="Year" class="yob" />
+      </div>
+
+      <input type="submit" data-key = "13" value="OK" class="sub" />
+
+      <div class="info-tab"></div>
+    </div>
+    <footer>
+      <h4>
+        &copy;
+        <a href="http://adeolaweb.com" style="color: white">Adeolaweb</a> 2nd
+        Project of 2021
+      </h4>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
