@@ -130,5 +130,8 @@ body.addEventListener("keydown", (e) => {
   }
 });
 
+//Webpage title
+document.title = 'What\'s your Age?';
+
 
 
